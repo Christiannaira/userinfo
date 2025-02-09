@@ -22,4 +22,22 @@ public class User {
 
     }
 
+    public String getFirst_name() {
+
+        return getFirst_name();
+
+    }
+
+    public String getLast_name() {
+
+        return getLast_name();
+
+    }
+
+    public String getMiddle_name() {
+
+        return getMiddle_name();
+
+    }
+
 }
