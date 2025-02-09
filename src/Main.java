@@ -4,16 +4,17 @@ public class Main {
 
     public static void main(String[] args) {
 
+        String first_name = "";
+        String last_name = "";
+        String middle_name = "";
 
+        askUser(first_name, last_name, middle_name);
 
     }
 
-    public void askUser() {
+    static void askUser(String first_name, String last_name, String middle_name) {
 
         Scanner askUser = new Scanner(System.in);
-        String first_name;
-        String last_name;
-        String middle_name;
 
         System.out.print("Enter your First Name: ");
         first_name = askUser.nextLine();
