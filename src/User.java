@@ -24,7 +24,7 @@ public class User {
 
     public String getFirst_name() {
 
-        return first_name;
+        return this.first_name;
 
     }
 
